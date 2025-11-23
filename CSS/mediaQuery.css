@@ -1,9 +1,12 @@
 @media only screen and (min-width: 200px) and (max-width: 575px) {
   header {
     flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
   }
   .headerLeft {
     margin-top: 15px;
+    justify-content: center;
   }
   .logoContainer {
     padding: 10px;
@@ -15,11 +18,11 @@
     text-align: left;
   }
   .locationSelector h3 {
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 2px;
   }
   .locationSelector p {
-    font-size: 12px;
+    font-size: 13px;
   }
   .headerCenter {
     padding: 10px;
@@ -27,5 +30,22 @@
   .searchBar {
     padding: 8px 8px;
     border: 1px solid #ccc6c6;
+  }
+  .headerBtn {
+    background-color: rgb(189, 179, 179);
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .loginBtn,
+  .cartBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .cartBtn {
+    margin-right: 0px;
   }
 }

@@ -8,6 +8,8 @@
 header {
   display: flex;
   border-bottom: 1px solid #ebe2e2;
+  align-items: center;
+  gap: 40px;
 }
 
 .headerLeft {
@@ -23,7 +25,7 @@ header {
 .locationSelector {
   display: flex;
   flex-direction: column;
-  padding: 19px 55px 21px 45px;
+  padding: 19px 5px 21px 45px;
   color: #333;
 }
 
@@ -66,4 +68,54 @@ header {
   border: none;
   outline: none;
   font-size: 18px;
+}
+
+.loginBtn {
+  margin-right: 20px;
+  padding: 10px 50px 10px 15px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: rgb(54, 54, 54);
+}
+
+.cartBtn {
+  margin-right: 40px;
+  padding: 15px 10px;
+  background-color: #034d15;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  border-radius: 10px;
+}
+
+.cartBtn i {
+  margin-right: 4px;
+}
+
+.banner-container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.banner-container img {
+  width: 100%;
+}
+
+.order-banner {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  padding-left: 13px;
+  padding-top: 10px;
+}
+
+.orderItem {
+  width: 26.6%;
+}
+
+.orderItem img {
+  width: 100%;
 }
