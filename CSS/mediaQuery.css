@@ -1,0 +1,31 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  header {
+    flex-direction: column;
+  }
+  .headerLeft {
+    margin-top: 15px;
+  }
+  .logoContainer {
+    padding: 10px;
+    border-right: 1px solid #8a8282;
+  }
+  .locationSelector {
+    padding: 10px 15px;
+    align-items: center;
+    text-align: left;
+  }
+  .locationSelector h3 {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  .locationSelector p {
+    font-size: 12px;
+  }
+  .headerCenter {
+    padding: 10px;
+  }
+  .searchBar {
+    padding: 8px 8px;
+    border: 1px solid #ccc6c6;
+  }
+}

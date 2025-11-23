@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid #ebe2e2;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer {
+  padding: 28px 21.5px 24px;
+  border-right: 1px solid #ebe2e2;
+}
+
+.locationSelector {
+  display: flex;
+  flex-direction: column;
+  padding: 19px 55px 21px 45px;
+  color: #333;
+}
+
+.locationSelector h3 {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.locationSelector p {
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+}
+
+.headerCenter {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 12px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  border: 1px solid #ece6e6;
+}
+
+.searchBar i {
+  background: transparent;
+}
+
+.searchBar input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
