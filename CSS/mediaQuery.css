@@ -57,4 +57,28 @@
   .product-info h4 {
     font-size: 12px;
   }
+
+  .footer-mid {
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+  .footer-middlePart {
+    flex-direction: column;
+    padding: 0px 10px;
+    gap: 5px;
+  }
+  .footer-middlePart h5 {
+    padding: 0px;
+  }
+  .app-links {
+    padding: 0px;
+  }
+  .social-iinks {
+    padding: 0px;
+  }
+  .info-content {
+    text-align: center;
+    padding: 10px;
+    margin: 50px 0px;
+  }
 }
