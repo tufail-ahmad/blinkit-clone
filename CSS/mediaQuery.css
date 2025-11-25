@@ -51,4 +51,10 @@
   .category-item {
     width: 25%;
   }
+  .product-container {
+    flex-basis: 47%;
+  }
+  .product-info h4 {
+    font-size: 12px;
+  }
 }
